@@ -2,7 +2,10 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
     mySprite.startEffect(effects.spray, 200)
     info.changeScoreBy(1)
 })
+// Created by Aidan L-N
+// Created November 17th, 2020
 // 
+// Code blocks that create an "avoid the strawberries" type game.
 let projectile: Sprite = null
 let mySprite: Sprite = null
 scene.setBackgroundColor(10)
